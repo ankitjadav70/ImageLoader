@@ -22,6 +22,8 @@ public class ImageLoader {
         }else {
             return imageLoader;
         }
+    }
+
     private ImageLoader(Context context) {
         this.context = context;
 
